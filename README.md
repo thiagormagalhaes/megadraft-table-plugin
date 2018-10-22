@@ -27,14 +27,12 @@ ReactDOM.render(<Example />, document.getElementById("container"));
 
 Install, run, test.
 
-```
-# Install npm dependencies
-make setup
-# Gulp dev-server task with webpack + sass running on http://localhost:8080/
-make run
-# Run mocha tests + eslint
-make test
-```
+- Install npm dependencies
+    make setup
+- Gulp dev-server task with webpack + sass running on http://localhost:8080/
+    make run
+- Run mocha tests + eslint
+    make test
 
 If you're constantly running tests, there's a faster alternative using mocha's
 watch feature:
